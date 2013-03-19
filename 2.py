@@ -1,5 +1,6 @@
 def fib(n):
 	if n <= 1:
+<<<<<<< HEAD
 		return n
 	else:
 		return (fib(n-1) + fib(n-2))
@@ -14,3 +15,10 @@ while tempNum <= 4000000:
 	count += 1
 print fibNum
 
+=======
+		return 1
+	else:
+		return fib(n - 1) + fib(n - 2)
+
+for
+>>>>>>> c70d0e2cd1545b25a431778ce6dceafca54f7a2c
